@@ -1,0 +1,49 @@
+.achievements-section {
+    padding: 5rem 10%;
+    background: var(--bg-dark);
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.highlight-card {
+    background: var(--bg-card);
+    padding: 2.5rem 2rem;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--accent-secondary);
+    transition: background-color 0.3s;
+}
+
+.highlight-card:hover::before {
+    background: var(--accent-primary);
+}
+
+.highlight-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.highlight-desc {
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    /* Changed from mono for readability */
+    font-size: 1rem;
+    line-height: 1.6;
+}
