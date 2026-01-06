@@ -48,7 +48,7 @@ const Hero = () => {
             <Github size={20} /> GitHub
           </a>
           
-          <a href="Resume/Naina_Joshi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+          <a href="https://drive.google.com/file/d/1tuXqh4kT8bVFuwcKAfLluL3Bh8XmgFmZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn-secondary">
             <FileText size={20} /> Resume
           </a>
         </motion.div>

@@ -43,7 +43,7 @@ const Contact = () => {
             <span>Call</span>
           </a>
           
-          <a href="Resume/Naina_Joshi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="contact-item">
+          <a href="https://drive.google.com/file/d/1tuXqh4kT8bVFuwcKAfLluL3Bh8XmgFmZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="contact-item">
             <div className="icon-box">
               <FileText className="contact-icon" />
             </div>
