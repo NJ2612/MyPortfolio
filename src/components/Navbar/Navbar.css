@@ -111,7 +111,9 @@
 
 .mobile-links button {
     font-size: 1.5rem;
-    color: #0F127A;
+    color:white;
+    background-color: #00000000;
+    border: 0px;
 }
 
 @media (max-width: 768px) {
