@@ -175,7 +175,7 @@ export const projects = [
         stack: ["React", "Node.js", "MongoDB", "Express"],
         links: {
             github: "https://github.com/Stack-Nova/Event-Calendar",
-            demo: "#"
+            demo: "https://event-calendar-alpha-red.vercel.app/"
         }
     }
 ];
