@@ -16,31 +16,31 @@ export const projects = [
         stack: ["Python", "TensorFlow", "OpenCV", "Flask"],
         links: {
             github: "https://github.com/NJ2612/Brain_Tumor_Detection_System",
-            demo: "#"
+            demo: "https://github.com/NJ2612/Brain_Tumor_Detection_System"
         }
     },
+    // {
+    //     id: 2,
+    //     title: "Exam Duty Allocation System",
+    //     category: "Automation System",
+    //     headline: "Constraint-Based Resource Scheduling",
+    //     overview: "Solves the complex logistical problem of assigning faculty to exam duties. The system manages fairness constraints, leave status, and strictly avoids scheduling conflicts.",
+    //     architecture: [
+    //         "Faculty Database",
+    //         "Constraint Engine",
+    //         "Allocation Logic",
+    //         "Conflict Resolver",
+    //         "Notification Service"
+    //     ],
+    //     models: ["Constraint Satisfaction", "Automated Scheduling", "Fairness Algorithms"],
+    //     stack: ["React", "Node.js", "MongoDB", "Express"],
+    //     links: {
+    //         github: "https://github.com/Stack-Nova/Exam_Duty_Allocation",
+    //         demo: "https://exam-duty-allocation.onrender.com"
+    //     }
+    // },
     {
         id: 2,
-        title: "Exam Duty Allocation System",
-        category: "Automation System",
-        headline: "Constraint-Based Resource Scheduling",
-        overview: "Solves the complex logistical problem of assigning faculty to exam duties. The system manages fairness constraints, leave status, and strictly avoids scheduling conflicts.",
-        architecture: [
-            "Faculty Database",
-            "Constraint Engine",
-            "Allocation Logic",
-            "Conflict Resolver",
-            "Notification Service"
-        ],
-        models: ["Constraint Satisfaction", "Automated Scheduling", "Fairness Algorithms"],
-        stack: ["React", "Node.js", "MongoDB", "Express"],
-        links: {
-            github: "https://github.com/Stack-Nova/Exam_Duty_Allocation",
-            demo: "https://exam-duty-allocation.onrender.com"
-        }
-    },
-    {
-        id: 3,
         title: "Movie Review Sentiment Analysis",
         category: "NLP / Analytics",
         headline: "Textual Intelligence & Opinion Mining",
@@ -56,11 +56,11 @@ export const projects = [
         stack: ["Python", "NLTK", "Scikit-Learn", "Streamlit"],
         links: {
             github: "https://github.com/NJ2612/Movie_Review_Sentiment_Analysis",
-            demo: "#"
+            demo: "https://github.com/NJ2612/Movie_Review_Sentiment_Analysis"
         }
     },
     {
-        id: 4,
+        id: 3,
         title: "Smart EV Route Optimiser",
         category: "Optimization",
         headline: "Intelligent Navigation & Load Balancing",
@@ -76,11 +76,11 @@ export const projects = [
         stack: ["Python", "NetworkX", "Google Maps API", "Pandas"],
         links: {
             github: "https://github.com/NJ2612/Smart_EV_Route_Optimiser",
-            demo: "#"
+            demo: "https://github.com/NJ2612/Smart_EV_Route_Optimiser"
         }
     },
     {
-        id: 5,
+        id: 4,
         title: "Library Management System",
         category: "Full Stack Platform",
         headline: "Digital Asset & Inventory Management",
@@ -96,11 +96,11 @@ export const projects = [
         stack: ["Java", "Spring Boot", "MySQL", "React"],
         links: {
             github: "https://github.com/NJ2612/library_management_system",
-            demo: "#"
+            demo: "https://github.com/NJ2612/Library_management_system"
         }
     },
     {
-        id: 6,
+        id: 5,
         title: "Stan Lee Tribute Page",
         category: "Creative Frontend",
         headline: "Interactive Digital Storytelling",
@@ -119,7 +119,7 @@ export const projects = [
         }
     },
     {
-        id: 7,
+        id: 6,
         title: "Cyber Crime Analysis System",
         category: "Data Intelligence",
         headline: "Pattern Discovery & Risk Intelligence",
@@ -135,11 +135,11 @@ export const projects = [
         stack: ["Python", "Pandas", "Seaborn", "Jupyter"],
         links: {
             github: "https://github.com/NJ2612/Cyber_Crime_Analysis_System",
-            demo: "#"
+            demo: "https://github.com/NJ2612/Cyber_Crime_Analysis_System"
         }
     },
     {
-        id: 8,
+        id: 7,
         title: "Smart Task Manager",
         category: "System / OS",
         headline: "Process Monitoring & Anomaly Awareness",
@@ -155,11 +155,11 @@ export const projects = [
         stack: ["Python", "System APIs", "Scikit-Learn", "Tkinter"],
         links: {
             github: "https://github.com/Aksh2908/smart_task_manager",
-            demo: "#"
+            demo: "https://github.com/Aksh2908/smart_task_manager"
         }
     },
     {
-        id: 9,
+        id: 8,
         title: "University Event Calendar",
         category: "Full Stack Platform",
         headline: "Centralized Scheduling & Conflict Resolution",
