@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 import './Timeline.css';
 
 const timelineData = [
-  { year: '2026', title: 'Top 5% @ Adobe Hackathon', desc: 'Building generative AI models for creative workflows.' },
+  { year: '2025', title: 'Certifications & Training', desc: 'AWS Solution Architect (Forage), Complete DS/ML/DL/NLP Bootcamp (Krish Naik), Winter Boot Camp on DS & Python (GEHU)' },
+  { year: '2024', title: 'Certifications', desc: 'Data Analytics with Python (Swayam), Google Cloud Computing Foundations (NPTEL)' },
+  { year: '2023', title: 'Extracurricular Activities', desc: 'Management Intern at Team Rogers - Coordinated university events and workshops for 500+ participants.' },
+  { year: '2023', title: 'Top 5 @ Hack the Winter', desc: 'Ranked Top 5 at GEHU Bhimtal based on technical evaluation.' },
   { year: '2025', title: 'ML Platforms & Hackathons', desc: 'Focusing on large-scale ML systems and competitive programming.' },
   { year: '2024', title: 'Optimization Systems', desc: 'Deep dive into system architecture and optimization algorithms.' },
   { year: '2023', title: 'CSE (AI & DS)', desc: 'Started specialization in AI & Data Science.' }

@@ -4,20 +4,20 @@ import './Achievements.css';
 
 const highlights = [
   { 
+    title: "Hack the Winter (2.0)", 
+    desc: "Ranked Top 5 at GEHU Bhimtal based on technical evaluation of submitted solutions." 
+  },
+  { 
     title: "Adobe India Hackathon", 
-    desc: "Recognized for generative AI innovation in creative workflows." 
+    desc: "Selected in top 5% nationwide after multi-round technical screening." 
   },
   { 
-    title: "Platform Adoption", 
-    desc: "Deployed solutions used by university wide student bodies." 
+    title: "National Hackathon Finalist", 
+    desc: "Finalist in ComSoc hackX, Innovation Contest, Neural Nexus Hackathon among 120+ teams." 
   },
   { 
-    title: "System Optimization", 
-    desc: "Architected algorithms for resource conflict resolution." 
-  },
-  { 
-    title: "Research Precision", 
-    desc: "Achieved high fidelity in anomaly detection simulations." 
+    title: "Smart India Hackathon", 
+    desc: "Qualified institute-level round through problem analysis and technical assessment." 
   }
 ];
 

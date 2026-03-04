@@ -1,29 +1,46 @@
 export const skills = [
     {
-        category: "Machine Learning",
+        category: "Programming Languages",
         items: [
-            { name: "XGBoost", context: "Applied in Cyber Crime Analysis" },
-            { name: "TensorFlow", context: "Research in Image Classification" },
-            { name: "Scikit-Learn", context: "Predictive Modeling Core" },
-            { name: "Pandas/NumPy", context: "Data Pipeline Construction" }
+            { name: "C++", context: "System Programming & Algorithms" },
+            { name: "C", context: "Low-Level System Development" },
+            { name: "JavaScript", context: "Web Development & Frontend" },
+            { name: "Python", context: "ML Models, Automation & Scripting" }
         ]
     },
     {
-        category: "Development",
+        category: "Frontend",
         items: [
-            { name: "React JS", context: "Dashboard System Architecture" },
-            { name: "Node.js", context: "Backend Service API Design" },
-            { name: "Python", context: "System Scripting & Automation" },
-            { name: "SQL", context: "Relational Data Structuring" }
+            { name: "ReactJS", context: "Component-Based UI Development" },
+            { name: "HTML", context: "Semantic Markup & Structure" },
+            { name: "CSS", context: "Styling & Responsive Design" },
+            { name: "Bootstrap", context: "Rapid UI Prototyping" }
         ]
     },
     {
-        category: "Tools & Infrastructure",
+        category: "Backend & APIs",
         items: [
-            { name: "Git/GitHub", context: "Distributed Version Control" },
-            { name: "Docker", context: "Application Containerization" },
-            { name: "Figma", context: "UI/UX System Prototyping" },
-            { name: "Postman", context: "API Integration Testing" }
+            { name: "Node.js", context: "Server-Side Development" },
+            { name: "Flask", context: "Python Web Services" },
+            { name: "FastAPI", context: "High-Performance APIs" },
+            { name: "REST APIs", context: "Service Integration" }
+        ]
+    },
+    {
+        category: "Data & ML",
+        items: [
+            { name: "Pandas", context: "Data Manipulation & Analysis" },
+            { name: "NumPy", context: "Numerical Computing" },
+            { name: "Scikit-learn", context: "Machine Learning Models" },
+            { name: "TensorFlow", context: "Deep Learning & AI Models" },
+            { name: "NLTK", context: "Natural Language Processing" }
+        ]
+    },
+    {
+        category: "Currently Exploring",
+        items: [
+            { name: "Native UI Frameworks", context: "Platform-Specific Development" },
+            { name: "Low-Level UI Concepts", context: "System-Level Interface Design" }
         ]
     }
 ];
