@@ -3,23 +3,40 @@ import { motion } from 'framer-motion';
 import './Timeline.css';
 
 const timelineData = [
-  {     title: 'CSE (AI & DS)', 
-    desc: 'Started B.Tech in Computer Science with specialization in Artificial Intelligence and Data Science.' 
+  { 
+    year: '2023', 
+    title: 'CSE (AI & DS)', 
+    desc: 'Started B.Tech in Computer Science with specialization in Artificial Intelligence & Data Science at Graphic Era Hill University.' 
   },
-  {     title: 'Hack the Winter (Top 5)', 
-    desc: 'Ranked Top 5 at Hack the Winter hackathon held at GEHU Bhimtal based on technical evaluation.' 
+  { 
+    year: '2023', 
+    title: 'Management Intern – Team Rogers', 
+    desc: 'Coordinated university events and technical workshops for 500+ participants.' 
   },
-  {     title: 'Management Intern', 
-    desc: 'Worked as a Management Intern at Team Rogers, coordinating university events and workshops for 500+ participants.' 
+  { 
+    year: '2024', 
+    title: 'Cloud & Data Certifications', 
+    desc: 'Completed Google Cloud Computing Foundations (NPTEL) and Data Analytics with Python (SWAYAM).' 
   },
-  {     title: 'Certifications', 
-    desc: 'Completed Data Analytics with Python (SWAYAM) and Google Cloud Computing Foundations (NPTEL).' 
+  { 
+    year: '2025', 
+    title: 'Advanced ML Training', 
+    desc: 'Completed Complete Data Science, ML, DL, NLP Bootcamp by Krish Naik and Winter Boot Camp on Data Structures & Python (GEHU).' 
   },
-  {     title: 'Certifications & Training', 
-    desc: 'AWS Solution Architect Virtual Experience (Forage), Complete DS/ML/DL/NLP Bootcamp by Krish Naik, Winter Boot Camp on Data Science & Python (GEHU).' 
+  { 
+    year: '2025', 
+    title: 'AWS Solution Architect', 
+    desc: 'Completed AWS Solution Architect Job Simulation on Forage.' 
   },
-  {     title: 'ML & Hackathon Focus', 
-    desc: 'Actively building machine learning projects, exploring large-scale ML systems, and participating in competitive programming and hackathons.' 
+  { 
+    year: '2025', 
+    title: 'National Hackathons', 
+    desc: 'Selected in Adobe India Hackathon (Top 5% nationwide) and finalist in national-level hackathons including ComSoc HackX, Innovation Contest, and Neural Nexus Hackathon.' 
+  },
+  { 
+    year: '2026', 
+    title: 'Hack the Winter (Top 5)', 
+    desc: 'Ranked Top 5 at Hack the Winter 2.0 held at GEHU Bhimtal based on technical evaluation.' 
   }
 ];
 
