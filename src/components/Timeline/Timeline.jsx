@@ -3,13 +3,36 @@ import { motion } from 'framer-motion';
 import './Timeline.css';
 
 const timelineData = [
-  { year: '2025', title: 'Certifications & Training', desc: 'AWS Solution Architect (Forage), Complete DS/ML/DL/NLP Bootcamp (Krish Naik), Winter Boot Camp on DS & Python (GEHU)' },
-  { year: '2024', title: 'Certifications', desc: 'Data Analytics with Python (Swayam), Google Cloud Computing Foundations (NPTEL)' },
-  { year: '2023', title: 'Extracurricular Activities', desc: 'Management Intern at Team Rogers - Coordinated university events and workshops for 500+ participants.' },
-  { year: '2023', title: 'Top 5 @ Hack the Winter', desc: 'Ranked Top 5 at GEHU Bhimtal based on technical evaluation.' },
-  { year: '2025', title: 'ML Platforms & Hackathons', desc: 'Focusing on large-scale ML systems and competitive programming.' },
-  { year: '2024', title: 'Optimization Systems', desc: 'Deep dive into system architecture and optimization algorithms.' },
-  { year: '2023', title: 'CSE (AI & DS)', desc: 'Started specialization in AI & Data Science.' }
+  { 
+    year: '2023', 
+    title: 'CSE (AI & DS)', 
+    desc: 'Started B.Tech in Computer Science with specialization in Artificial Intelligence and Data Science.' 
+  },
+  { 
+    year: '2023', 
+    title: 'Hack the Winter (Top 5)', 
+    desc: 'Ranked Top 5 at Hack the Winter hackathon held at GEHU Bhimtal based on technical evaluation.' 
+  },
+  { 
+    year: '2023', 
+    title: 'Management Intern', 
+    desc: 'Worked as a Management Intern at Team Rogers, coordinating university events and workshops for 500+ participants.' 
+  },
+  { 
+    year: '2024', 
+    title: 'Certifications', 
+    desc: 'Completed Data Analytics with Python (SWAYAM) and Google Cloud Computing Foundations (NPTEL).' 
+  },
+  { 
+    year: '2025', 
+    title: 'Certifications & Training', 
+    desc: 'AWS Solution Architect Virtual Experience (Forage), Complete DS/ML/DL/NLP Bootcamp by Krish Naik, Winter Boot Camp on Data Science & Python (GEHU).' 
+  },
+  { 
+    year: '2025', 
+    title: 'ML & Hackathon Focus', 
+    desc: 'Actively building machine learning projects, exploring large-scale ML systems, and participating in competitive programming and hackathons.' 
+  }
 ];
 
 const Timeline = () => {
@@ -22,6 +45,7 @@ const Timeline = () => {
 
       <div className="timeline-container">
         <div className="timeline-line"></div>
+
         {timelineData.map((item, index) => (
           <motion.div 
             key={index}
@@ -32,12 +56,15 @@ const Timeline = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
             <div className="timeline-year">{item.year}</div>
+
             <div className="timeline-content">
               <h3>{item.title}</h3>
               <p>{item.desc}</p>
             </div>
+
           </motion.div>
         ))}
+
       </div>
     </section>
   );
