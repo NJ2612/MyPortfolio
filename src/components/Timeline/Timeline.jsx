@@ -3,34 +3,22 @@ import { motion } from 'framer-motion';
 import './Timeline.css';
 
 const timelineData = [
-  { 
-    year: '2023', 
-    title: 'CSE (AI & DS)', 
+  {     title: 'CSE (AI & DS)', 
     desc: 'Started B.Tech in Computer Science with specialization in Artificial Intelligence and Data Science.' 
   },
-  { 
-    year: '2023', 
-    title: 'Hack the Winter (Top 5)', 
+  {     title: 'Hack the Winter (Top 5)', 
     desc: 'Ranked Top 5 at Hack the Winter hackathon held at GEHU Bhimtal based on technical evaluation.' 
   },
-  { 
-    year: '2023', 
-    title: 'Management Intern', 
+  {     title: 'Management Intern', 
     desc: 'Worked as a Management Intern at Team Rogers, coordinating university events and workshops for 500+ participants.' 
   },
-  { 
-    year: '2024', 
-    title: 'Certifications', 
+  {     title: 'Certifications', 
     desc: 'Completed Data Analytics with Python (SWAYAM) and Google Cloud Computing Foundations (NPTEL).' 
   },
-  { 
-    year: '2025', 
-    title: 'Certifications & Training', 
+  {     title: 'Certifications & Training', 
     desc: 'AWS Solution Architect Virtual Experience (Forage), Complete DS/ML/DL/NLP Bootcamp by Krish Naik, Winter Boot Camp on Data Science & Python (GEHU).' 
   },
-  { 
-    year: '2025', 
-    title: 'ML & Hackathon Focus', 
+  {     title: 'ML & Hackathon Focus', 
     desc: 'Actively building machine learning projects, exploring large-scale ML systems, and participating in competitive programming and hackathons.' 
   }
 ];
