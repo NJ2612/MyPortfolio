@@ -19,28 +19,28 @@ export const projects = [
             demo: "https://github.com/NJ2612/Brain_Tumor_Detection_System"
         }
     },
-    // {
-    //     id: 2,
-    //     title: "Exam Duty Allocation System",
-    //     category: "Automation System",
-    //     headline: "Constraint-Based Resource Scheduling",
-    //     overview: "Solves the complex logistical problem of assigning faculty to exam duties. The system manages fairness constraints, leave status, and strictly avoids scheduling conflicts.",
-    //     architecture: [
-    //         "Faculty Database",
-    //         "Constraint Engine",
-    //         "Allocation Logic",
-    //         "Conflict Resolver",
-    //         "Notification Service"
-    //     ],
-    //     models: ["Constraint Satisfaction", "Automated Scheduling", "Fairness Algorithms"],
-    //     stack: ["React", "Node.js", "MongoDB", "Express"],
-    //     links: {
-    //         github: "https://github.com/Stack-Nova/Exam_Duty_Allocation",
-    //         demo: "https://exam-duty-allocation.onrender.com"
-    //     }
-    // },
     {
         id: 2,
+        title: "Exam Duty Allocation System",
+        category: "Automation System",
+        headline: "Constraint-Based Resource Scheduling",
+        overview: "Solves the complex logistical problem of assigning faculty to exam duties. The system manages fairness constraints, leave status, and strictly avoids scheduling conflicts.",
+        architecture: [
+            "Faculty Database",
+            "Constraint Engine",
+            "Allocation Logic",
+            "Conflict Resolver",
+            "Notification Service"
+        ],
+        models: ["Constraint Satisfaction", "Automated Scheduling", "Fairness Algorithms"],
+        stack: ["React", "Node.js", "MongoDB", "Express"],
+        links: {
+            github: "https://github.com/Stack-Nova/Exam_Duty_Allocation",
+            demo: "https://exam-duty-allocation.onrender.com"
+        }
+    },
+    {
+        id: 3,
         title: "Movie Review Sentiment Analysis",
         category: "NLP / Analytics",
         headline: "Textual Intelligence & Opinion Mining",
@@ -60,7 +60,7 @@ export const projects = [
         }
     },
     {
-        id: 3,
+        id: 4,
         title: "Smart EV Route Optimiser",
         category: "Optimization",
         headline: "Intelligent Navigation & Load Balancing",
@@ -80,7 +80,7 @@ export const projects = [
         }
     },
     {
-        id: 4,
+        id: 5,
         title: "Library Management System",
         category: "Full Stack Platform",
         headline: "Digital Asset & Inventory Management",
@@ -100,7 +100,7 @@ export const projects = [
         }
     },
     {
-        id: 5,
+        id: 6,
         title: "Stan Lee Tribute Page",
         category: "Creative Frontend",
         headline: "Interactive Digital Storytelling",
@@ -119,7 +119,7 @@ export const projects = [
         }
     },
     {
-        id: 6,
+        id: 7,
         title: "Cyber Crime Analysis System",
         category: "Data Intelligence",
         headline: "Pattern Discovery & Risk Intelligence",
@@ -139,7 +139,7 @@ export const projects = [
         }
     },
     {
-        id: 7,
+        id: 8,
         title: "Smart Task Manager",
         category: "System / OS",
         headline: "Process Monitoring & Anomaly Awareness",
@@ -159,7 +159,7 @@ export const projects = [
         }
     },
     {
-        id: 8,
+        id: 9,
         title: "University Event Calendar",
         category: "Full Stack Platform",
         headline: "Centralized Scheduling & Conflict Resolution",
@@ -177,5 +177,47 @@ export const projects = [
             github: "https://github.com/Stack-Nova/Event-Calendar",
             demo: "https://event-calendar-alpha-red.vercel.app/"
         }
+    },
+    {
+        id: 10,
+        title: "WhistleBlower: Decentralized Evidence Verification Platform",
+        category: "Security / AI",
+        headline: "AI-Powered Evidence Verification & Blockchain-Inspired Logging",
+        overview: "A decentralized, multi-platform system designed to securely collect, verify, and store evidence in a tamper-resistant manner. It leverages AI-powered deepfake detection alongside blockchain-inspired logging to provide trustworthy validation for images, videos, and audio submissions.",
+        architecture: [
+            "Evidence Submission & Processing (Android/Web)",
+            "AI Integration (Deepfake Detection)",
+            "Ensemble & Verdict Generation",
+            "Evidence Storage & Logging",
+            "Blockchain-Inspired Hashing"
+        ],
+        models: ["CLIP Vision-Language Models", "CNN-based Classifiers", "Wav2Vec2 Audio Detection", "WavLM Hindi Fine-tuned Model", "Ensemble Deepfake Detection"],
+        stack: ["Android App", "Web Frontend", "Python", "TensorFlow", "PostgreSQL", "RESTful APIs"],
+        links: {
+            github: "https://github.com/ReaalSATYAM/WhistleBlower",
+            demo: "https://github.com/ReaalSATYAM/WhistleBlower"
+        }
+    },
+    {
+        id: 11,
+        title: "EDGE: Early Detection Of Geohazard Events",
+        category: "Environmental AI",
+        headline: "Landslide Risk Prediction & Early Warning System",
+        overview: "An advanced geohazard monitoring system that implements slope stability models using rainfall infiltration variables and factor-of-safety equations across multiple terrain profiles. The system evaluates historical landslide events to identify high-risk failure zones during extreme rainfall conditions.",
+        architecture: [
+            "Rainfall Infiltration Model",
+            "Slope Stability Analysis Engine",
+            "Factor-of-Safety Calculator",
+            "Historical Event Database",
+            "Real-Time Risk Scoring Module",
+            "Early Warning Alert System"
+        ],
+        models: ["Slope Stability Modeling", "Rainfall Infiltration Analysis", "Factor-of-Safety Equations", "Geospatial Risk Mapping", "Time-Series Simulation"],
+        stack: ["Python", "TensorFlow", "Pandas", "NumPy", "GIS Tools"],
+        links: {
+            github: "https://github.com/NJ2612/EDGE-Early-Detection-Of-Geohazarad-Events",
+            demo: "https://github.com/NJ2612/EDGE-Early-Detection-Of-Geohazarad-Events"
+        }
     }
 ];
+
