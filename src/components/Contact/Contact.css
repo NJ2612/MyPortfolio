@@ -55,7 +55,7 @@
 
 .contact-item:hover .icon-box {
     border-color: var(--accent-primary);
-    background: rgba(94, 234, 212, 0.05);
+    background: rgba(184, 117, 82, 0.08);
     /* Very subtle teal tint */
     transform: translateY(-5px);
 }

@@ -1,6 +1,8 @@
 export const projects = [
     {
         id: 1,
+        featured: true,
+        featuredOrder: 1,
         title: "Brain Tumor Detection System",
         category: "Medical AI",
         headline: "Diagnostic Assistant & Image Analysis",
@@ -21,6 +23,8 @@ export const projects = [
     },
     {
         id: 2,
+        featured: true,
+        featuredOrder: 2,
         title: "Exam Duty Allocation System",
         category: "Automation System",
         headline: "Constraint-Based Resource Scheduling",
@@ -41,6 +45,8 @@ export const projects = [
     },
     {
         id: 3,
+        featured: true,
+        featuredOrder: 3,
         title: "Movie Review Sentiment Analysis",
         category: "NLP / Analytics",
         headline: "Textual Intelligence & Opinion Mining",

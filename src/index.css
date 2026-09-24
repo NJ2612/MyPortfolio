@@ -1,25 +1,17 @@
 :root {
-  --bg-dark: #0f172a;
-  /* Slate 900 */
-  --bg-card: #1e293b;
-  /* Slate 800 */
-  --bg-card-hover: #334155;
-  /* Slate 700 */
+  --bg-dark: #15120F;
+  --bg-card: #211C18;
+  --bg-card-hover: #2D2622;
 
-  --accent-primary: #5eead4;
-  /* Teal 300 - Soft bright teal */
-  --accent-secondary: #94a3b8;
-  /* Slate 400 - Steel Blue */
+  --accent-primary: #B87552;
+  --accent-secondary: #7D8B70;
 
-  --text-main: #f1f5f9;
-  /* Slate 100 */
-  --text-body: #cbd5e1;
-  /* Slate 300 */
-  --text-muted: #64748b;
-  /* Slate 500 */
+  --text-main: #F1E9DD;
+  --text-body: #D6C7B7;
+  --text-muted: #AFA69A;
 
-  --border-dim: rgba(148, 163, 184, 0.1);
-  --border-highlight: rgba(94, 234, 212, 0.3);
+  --border-dim: rgba(214, 199, 183, 0.14);
+  --border-highlight: rgba(184, 117, 82, 0.4);
 
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -67,12 +59,12 @@ pre {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: #53473E;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #475569;
+  background: #6A5B52;
 }
 
 /* Utilities */
@@ -105,7 +97,7 @@ pre {
 
 .grid-bg {
   background-image:
-    linear-gradient(rgba(148, 163, 184, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(214, 199, 183, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(214, 199, 183, 0.04) 1px, transparent 1px);
   background-size: 40px 40px;
 }

@@ -5,12 +5,12 @@ import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Skills from '../components/Skills/Skills';
 import Timeline from '../components/Timeline/Timeline';
-
+import About from '../components/About/About';
 import Contact from '../components/Contact/Contact';
 
 const Home = () => {
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -20,7 +20,7 @@ const Home = () => {
       <Projects />
       <Skills />
       <Timeline />
-
+      <About />
       <Contact />
     </motion.div>
   );
