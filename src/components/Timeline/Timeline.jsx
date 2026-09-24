@@ -34,6 +34,16 @@ const timelineData = [
     desc: 'Selected in Adobe India Hackathon (Top 5% nationwide) and finalist in national-level hackathons including ComSoc HackX, Innovation Contest, and Neural Nexus Hackathon.' 
   },
   { 
+    year: 'Mar 2026 – Apr 2026', 
+    title: 'Indian Institute of Technology Roorkee — Research Intern, Department of CSE', 
+    desc: 'Developed an AI-powered resume analytics and automated assessment framework, parsing 100+ resumes with NLP and scoring candidates across skills, experience, and education.' 
+  },
+  { 
+    year: '2026', 
+    title: 'ServiceNow University — ServiceNow Virtual Internship Program', 
+    desc: 'Completed the ServiceNow Virtual Internship Program through ServiceNow University, AICTE & SmartBridge, covering administration fundamentals, flows, ATF, reports, Agentic AI, and CSA exam preparation.' 
+  },
+  { 
     year: '2026', 
     title: 'Hack the Winter (Top 5)', 
     desc: 'Ranked Top 5 at Hack the Winter 2.0 held at GEHU Bhimtal based on technical evaluation.' 
